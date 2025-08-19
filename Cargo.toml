@@ -1,0 +1,14 @@
+[package]
+name = "redesigned-fishstick"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.28", default-features = true }
+egui = "0.28"
+bsdiff = "0.2"
+rfd = "0.14"
+
+[[bin]]
+name = "redesigned-fishstick"
+path = "src/main.rs"
